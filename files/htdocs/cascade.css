@@ -1681,7 +1681,10 @@ header .pull-right { padding-top: 8px; }
 
 #modemenu li:last-child span.divider { display: none }
 
-#syslog {  width: 100%; }
+#syslog { 
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  width: 100%;
+}
 
 .cbi-section-table tbody tr:nth-child(odd) td, .cbi-section-table tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
