@@ -1207,6 +1207,10 @@ footer {
   (Located here because it's the base style & it's later overriden
                             for efficiency)
  ******************************************************************/
+ 
+ body[class$="Firewall"] * .cbi-section ul li {
+   display: inline;
+ }
 
 /* .btn */
 body[class$="Firewall"] * .cbi-section ul li a {
